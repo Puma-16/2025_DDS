@@ -82,7 +82,34 @@ body {
 		border-right-width: 0;
 		border-left-width: 0;
 }
+.poster-container {
+	background-image: url('img/demos/band/poster.png'); /* Reemplaza con la ruta de tu imagen */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px; /* Ajusta según el tamaño deseado */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer; /* Cambia el cursor a "manito" */
+	transition: transform 0.3s ease-in-out;
+	position: relative;
+}
 
+.poster-container:hover {
+	transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.poster-text {
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para legibilidad */
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-align: center;
+}
 
 @media (min-width: 576px) {
 		.custom-borders-divider-style-1 > div[class*="col"] {
