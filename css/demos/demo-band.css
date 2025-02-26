@@ -83,6 +83,7 @@ body {
 		border-left-width: 0;
 }
 
+
 @media (min-width: 576px) {
 		.custom-borders-divider-style-1 > div[class*="col"] {
 				border-right-width: 1px;
