@@ -48,4 +48,28 @@ Theme Version:	12.0.0
     $('[data-scroll-and-focus]').on('click', function() {
 		scrollAndFocus($(this), '#contact', '#name', 70, true);
 	});
+
+
+	document.addEventListener("DOMContentLoaded", function () {
+		let images = [
+			'img/demos/band/backgrounds/B1.png',
+			'img/demos/band/backgrounds/B2.png',
+			'img/demos/band/backgrounds/B3.png',
+			'img/demos/band/backgrounds/B4.png',
+		];
+		
+		let section = document.getElementById("background-slider");
+		let index = 0;
+
+		function changeBackground() {
+			index = (index + 1) % images.length;
+			section.style.backgroundImage = `url(${images[index]})`;
+		}
+
+		// Establece la primera imagen y luego inicia el cambio de fondo cada 5 segundos
+		section.style.backgroundImage = `url(${images[0]})`;
+		setInterval(changeBackground, 5000);
+	});
+
+
 })).apply( this, [ jQuery ]);

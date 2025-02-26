@@ -17,6 +17,23 @@ body {
 .custom-border-color-1 {
 		border-color: #424549 !important;
 }
+#background-slider {
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    height: 100vh; /* Mantiene la altura completa de la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background-slider a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .custom-font-size-1 {
 		font-size: 22.4px !important;
