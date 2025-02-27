@@ -50,26 +50,7 @@ Theme Version:	12.0.0
 	});
 
 
-	document.addEventListener("DOMContentLoaded", function () {
-		let images = [
-			'img/demos/band/backgrounds/B1.png',
-			'img/demos/band/backgrounds/B2.png',
-			'img/demos/band/backgrounds/B3.png',
-			'img/demos/band/backgrounds/B4.png',
-		];
-		
-		let section = document.getElementById("background-slider");
-		let index = 0;
-
-		function changeBackground() {
-			index = (index + 1) % images.length;
-			section.style.backgroundImage = `url(${images[index]})`;
-		}
-
-		// Establece la primera imagen y luego inicia el cambio de fondo cada 5 segundos
-		section.style.backgroundImage = `url(${images[0]})`;
-		setInterval(changeBackground, 5000);
-	});
+	
 	document.addEventListener("DOMContentLoaded", function () {
         const slides = document.querySelectorAll(".carousel-slide");
         let currentIndex = 0;
