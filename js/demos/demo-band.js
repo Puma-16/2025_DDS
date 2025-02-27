@@ -70,6 +70,17 @@ Theme Version:	12.0.0
 		section.style.backgroundImage = `url(${images[0]})`;
 		setInterval(changeBackground, 5000);
 	});
+	document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".carousel-slide");
+        let currentIndex = 0;
 
+        function showNextSlide() {
+            slides[currentIndex].classList.remove("active"); // Oculta la imagen actual
+            currentIndex = (currentIndex + 1) % slides.length; // Siguiente índice
+            slides[currentIndex].classList.add("active"); // Muestra la nueva imagen
+        }
+
+        setInterval(showNextSlide, 5000); // Cambia cada 5 segundos
+    });
 
 })).apply( this, [ jQuery ]);
