@@ -63,5 +63,7 @@ Theme Version:	12.0.0
 
         setInterval(showNextSlide, 5000); // Cambia cada 5 segundos
     });
-
+	
+	
+	
 })).apply( this, [ jQuery ]);
