@@ -58,9 +58,11 @@ Historia de usuario: Como usuario, quiero que todos los botones y elementos visu
 
 MEJORAS
 🔹 Mejoras Implementadas:
-•	Cambio de color del botón de YouTube a rojo para mayor visibilidad.
 •	Optimización de código para mejorar la velocidad de carga.
 •	Implementación de un diseño más adaptable para diferentes dispositivos.
+•	Eliminacion de carpetas de archivos innecesarias.
+•	Implementación de iframe de spotify.
+•	Implementación de videoclip oficial.
 Historia de usuario: Como fan, quiero que la página de ASAP Rocky sea rápida y atractiva para disfrutar mejor de su contenido.
 
 
