@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://puma-16.github.io/2025_DDS//sitemap.xml
