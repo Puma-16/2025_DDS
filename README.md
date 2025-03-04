@@ -6,7 +6,6 @@ ________________________________________
 o	ASI (Análisis del Sistema de Información)
 o	DSI (Diseño del Sistema de Información) 
 	Front-end
-	Back-end
 o	CSI (Construcción del Sistema de Información)
 o	IAS (Implementación y Administración del Sistema)
 2.	ERRORES Y SOLUCIONES
@@ -27,11 +26,6 @@ Front-end:
 •	Menú de navegación con acceso rápido a secciones clave (Home, Tour, About, News, Contact).
 •	Botones de redes sociales destacadas (Instagram, YouTube, Facebook) con colores personalizados.
 Historia de usuario: Como usuario, quiero una página atractiva y organizada para encontrar rápidamente lo que busco sobre ASAP Rocky.
-Back-end:
-•	Integración con bases de datos para manejar información sobre eventos y noticias.
-•	Soporte para actualizaciones automáticas de contenido vía API.
-•	Optimización de carga de archivos multimedia para mejorar la velocidad.
-Historia de usuario: Como administrador, quiero un sistema eficiente para actualizar información sobre ASAP Rocky sin complicaciones.
 
 🔹 CSI (Construcción del Sistema de Información)
 •	Desarrollo de la estructura HTML/CSS para el diseño visual.
